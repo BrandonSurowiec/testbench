@@ -2,6 +2,25 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 6.44.0
+
+Released: 2024-05-21
+
+### Changes
+
+* Update minimum support for Testbench Core v6.50.0+. ([v6.49.6...v6.50.0](https://github.com/orchestral/testbench-core/compare/v6.49.6...v6.50.0))
+
+#### Testbench Changes
+
+##### Changes
+
+* Uses `TESTBENCH_WORKING_PATH` from environment variable before fallback to `getcwd()`.
+* PHPStan Improvements.
+
+##### Fixes
+
+* Backport fixes to routing registration using macro with Workbench.
+
 ## 6.43.3
 
 Released: 2024-04-16
