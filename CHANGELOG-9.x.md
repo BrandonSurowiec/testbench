@@ -2,6 +2,25 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 9.1.1
+
+Released: 2024-06-01
+
+### Changes
+
+* Update minimum support for Testbench Core v9.1.2+. ([v9.1.0...v9.1.2](https://github.com/orchestral/testbench-core/compare/v9.1.0...v9.1.2))
+
+#### Testbench Changes
+
+##### Changes
+
+* Utilise `Orchestra\Testbench\package_path()` function instead of `TESTBENCH_WORKING_PATH` constant.
+* Update configuration to match Laravel Framework v11.8.0,
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Attributes\RequiresLaravel` attribute usage.
+
 ## 9.1.0
 
 Released: 2024-05-21
