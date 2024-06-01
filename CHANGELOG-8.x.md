@@ -2,6 +2,24 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 8.23.1
+
+Released: 2024-06-01
+
+### Changes
+
+* Update minimum support for Testbench Core v8.24.2+. ([v8.24.0...v8.24.2](https://github.com/orchestral/testbench-core/compare/v8.24.0...v8.24.2))
+
+#### Testbench Changes
+
+##### Changes
+
+* Utilise `Orchestra\Testbench\package_path()` function instead of `TESTBENCH_WORKING_PATH` constant.
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Attributes\RequiresLaravel` attribute usage.
+
 ## 8.23.0
 
 Released: 2024-05-21
@@ -12,7 +30,7 @@ Released: 2024-05-21
 
 #### Testbench Changes
 
-###### Changes
+##### Changes
 
 * Uses `TESTBENCH_WORKING_PATH` from environment variable before fallback to `getcwd()`.
 * PHPStan Improvements.
