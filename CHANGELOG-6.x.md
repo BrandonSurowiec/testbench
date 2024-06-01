@@ -2,6 +2,20 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 6.44.1
+
+Released: 2024-06-01
+
+### Changes
+
+* Update minimum support for Testbench Core v6.50.1+. ([v6.50.0...v6.50.1](https://github.com/orchestral/testbench-core/compare/v6.50.0...v6.50.1))
+
+#### Testbench Changes
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Attributes\RequiresLaravel` attribute usage.
+
 ## 6.44.0
 
 Released: 2024-05-21
