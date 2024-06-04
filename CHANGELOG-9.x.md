@@ -2,6 +2,21 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 9.1.2
+
+Released: 2024-06-04
+
+### Changes
+
+* Update minimum support for Testbench Core v9.1.3+. ([v9.1.2...v9.1.3](https://github.com/orchestral/testbench-core/compare/v9.1.2...v9.1.3))
+
+#### Testbench Changes
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Workench\Workbench::applicationExceptionHandler()` usage to detect `Workbench\App\Exceptions\Handler` class.
+* Fixes `Orchestra\Testbench\Console\Kernel` and `Orchestra\Testbench\Foundation\Console\Kernel` unable to discover commands.
+
 ## 9.1.1
 
 Released: 2024-06-01
