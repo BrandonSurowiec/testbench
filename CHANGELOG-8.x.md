@@ -2,6 +2,20 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 8.23.2
+
+Released: 2024-06-04
+
+### Changes
+
+* Update minimum support for Testbench Core v8.24.3+. ([v8.24.2...v8.24.3](https://github.com/orchestral/testbench-core/compare/v8.24.2...v8.24.3))
+
+#### Testbench Changes
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Workench\Workbench::applicationExceptionHandler()` usage to detect `Workbench\App\Exceptions\Handler` class.
+
 ## 8.23.1
 
 Released: 2024-06-01
