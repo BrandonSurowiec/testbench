@@ -2,6 +2,20 @@
 
 This changelog references the relevant changes (bug and security fixes) done to `orchestra/testbench`.
 
+## 6.44.2
+
+Released: 2024-06-04
+
+### Changes
+
+* Update minimum support for Testbench Core v6.50.2+. ([v6.50.1...v6.50.2](https://github.com/orchestral/testbench-core/compare/v6.50.1...v6.50.2))
+
+#### Testbench Changes
+
+##### Fixes
+
+* Fixes `Orchestra\Testbench\Workench\Workbench::applicationExceptionHandler()` usage to detect `Workbench\App\Exceptions\Handler` class.
+
 ## 6.44.1
 
 Released: 2024-06-01
